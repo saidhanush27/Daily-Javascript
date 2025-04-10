@@ -19,3 +19,13 @@ function myName(){
     console.log(`my name is ${this.man}`)
 }
 myName.call(person)
+
+
+//new binding
+
+function Person(name){
+  this.name= name;
+
+}
+const p1 = new Person("sai")
+const p2 = new Person("dhanush");
